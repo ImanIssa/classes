@@ -1,0 +1,45 @@
+
+:root{
+    --varcolor-color:red;
+    --widthflex:300px;
+}
+#flex-container {
+    display: flex; /* or inline-flex */
+    background-color: blueviolet;
+    border: 2px solid black;
+    height: 500px;
+    /*width: 300px;*/
+    
+
+
+   
+  
+    
+  }
+
+  .flex-item{
+      
+      background-color:var( --varcolor-color);
+      height: 100px;
+      width: var(--widthflex);
+      
+      border-radius: 10px;
+      font-size: 25px;
+      font-weight: bold;
+      margin: 5px;
+
+  } 
+
+  p{
+      display: flex;
+      justify-content: center;
+       align-items: center;
+  }
+
+
+
+
+   
+
+      
+ 
